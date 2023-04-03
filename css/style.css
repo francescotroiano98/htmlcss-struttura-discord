@@ -19,8 +19,6 @@ section{
     margin: 0 auto;
     width: 70%;
     background-color: orange;
-    display: flex;
-    justify-content: space-between;
 }
 .border{
     border: 3px solid red;
@@ -31,9 +29,9 @@ section{
     border-style: dashed;
 }
 nav{
-    
-    
+    justify-content: space-between;
     display: flex;
+    align-items: center;
     
 }
 ul{
@@ -44,7 +42,16 @@ ul{
     border-top: 0px;
     border-bottom: 0px;
 }
+li{
+    margin: 5px;
+}
 .box-pink{
+    margin-top: 20px;
+    height: 300px;
+    width: 60%;
+    background-color: pink;
+}
+.box-row{
     margin-top: 20px;
     height: 300px;
     width: 60%;
