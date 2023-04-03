@@ -71,7 +71,7 @@
 
 }
 .section-7{
-    height: 10%;
+    height: 100%;
     max-width: 70%;
     margin: 0 auto;
     display: flex;
@@ -81,7 +81,7 @@
 
 
 .border{
-    border: 3px solid red;
+    border: 3px solid black;
     border-style: dashed;
     
 }
@@ -98,8 +98,8 @@ nav{
 ul{
     list-style-type: none;
     display: flex;
-    border-left: 3px solid red;
-    border-right: 3px solid red;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
     border-top: 0px;
     border-bottom: 0px;
 }
@@ -108,7 +108,7 @@ li{
 }
 .box-big{
     margin: 10px 0px;
-    height: 80%;
+    height: 90%;
     width: 100%;
     background-color: blueviolet;
 }
@@ -165,9 +165,16 @@ main{
     width: 100%;
     background-color: gray;
 }
+footer{
+    height: 500px;
+}
 .background-footer{
     background-color: rgb(39, 39, 39);
-    height: 400px;
+    height: 90%;
+}
+.background-footer-2{
+    background-color: rgb(39, 39, 39);
+    height: 10%;
 }
 .box-red{
     margin: 20px 0px;
@@ -182,8 +189,15 @@ main{
     background-color: rgb(7, 121, 95);
 }
 .box-footer{
-    margin: 20px 0px;
-    height: 90%;
-    width: 25%;
+    display: flex;
+    margin: 5px 0px;
+    height: 80%;
+    width: 100%;
     background-color: rgb(7, 121, 95);
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-bottone-bg{
+    height: 60%;
+background-color: red;
 }
