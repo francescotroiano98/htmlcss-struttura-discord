@@ -3,11 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
 .margin{
     margin: 0 auto;
 
@@ -39,6 +34,7 @@
     background-color: orange;
 }
 .section-3{
+    display: flex;
     margin: 0 auto;
     height: 70%;
     max-width: 70%;
@@ -47,7 +43,7 @@
     margin: 0 auto;
     height: 100%;
     width: 70%;
-    
+    align-items: center;
     display: flex;
     flex-direction: row;
 }
@@ -120,23 +116,20 @@ li{
     flex-direction: row;
     
 }
-main{
-    background-color: white;
-}
 .blu-square{
     background-color: blue;
     height: 85%;
 }
 
 .box-blu{
-    margin-top: 20px;
+    margin: 10px 0;
     height: 80%;
     width: 60%;
     background-color: blue;
 
 }
 .box-pink{
-    margin-top: 20px;
+    margin: 10px 0;
     background-color: pink;
     width: 40%;
     height: 80%;
