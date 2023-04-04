@@ -55,9 +55,10 @@
     align-items: center
 }
 .section-7{
+    align-items: center;
     height: 100%;
     max-width: 70%;
-    justify-items: center;
+    
 }
 .border{
     border: 2px solid black;    
@@ -81,8 +82,8 @@ nav{
 ul{
     list-style-type: none;
     display: flex;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
     border-top: 0px;
     border-bottom: 0px;
 }
