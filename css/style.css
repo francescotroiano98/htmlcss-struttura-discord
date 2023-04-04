@@ -5,13 +5,14 @@
 }
 .margin{
     margin: 0 auto;
-
+}
+.flex{
+    display: flex;
 }
 .container-1{
     background-color: blue;
     height: 300px;
     width: 1000px;
-    
 }
 .container-main{
     
@@ -22,29 +23,22 @@
     
 }
 .section-1{
-    padding: 10px 0px;
-    height: 25%;
+    padding-top: 10px;
+    height: 100%;
     background-color: aquamarine;
-    
-
 }
 .section-2{
-    margin: 0 auto;
     width: 70%;
     background-color: orange;
 }
 .section-3{
-    display: flex;
-    margin: 0 auto;
-    height: 70%;
-    max-width: 70%;
+    height: 92%;
+    width: 100%;
 }
 .section-4{
-    margin: 0 auto;
     height: 100%;
     width: 70%;
     align-items: center;
-    display: flex;
     flex-direction: row;
 }
 .direction{
@@ -53,33 +47,27 @@
 .section-5{
     height: 100%;
     max-width: 70%;
-    margin: 0 auto;
-    display: flex;
-    justify-items: center;
-
+    align-items: center;
 }
 .section-6{
-    height: 80%;
+    height: 100%;
     max-width: 70%;
-    margin: 0 auto;
-    display: flex;
-    justify-items: center;
-
+    align-items: center
 }
 .section-7{
     height: 100%;
     max-width: 70%;
-    margin: 0 auto;
-    display: flex;
     justify-items: center;
-
 }
-
-
 .border{
-    border: 3px solid black;
-    border-style: dashed;
-    
+    border: 2px solid black;    
+}
+.height{
+    height: 90%;
+    width: 60%;
+}
+.border-white{
+    border: 2px solid white;
 }
 .border-type{
     border-style: dashed;
@@ -88,7 +76,6 @@ nav{
     justify-content: space-between;
     display: flex;
     align-items: center;
-    
     padding: 0px 7px;
 }
 ul{
@@ -106,15 +93,21 @@ li{
     margin: 10px 0px;
     height: 90%;
     width: 100%;
-    background-color: blueviolet;
+    background-color: rgb(21, 18, 96);
+    align-items: center;
+    justify-content: center;
+}
+.box-big-2{
+    
+    height: 80%;
+    width: 70%;
+    background-color: rgb(244, 127, 219);
 }
 .box-row{
-    
     height: 300px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    
 }
 .blu-square{
     background-color: blue;
@@ -176,13 +169,11 @@ footer{
     background-color: red;
 }
 .box-turchese{
-    margin: 20px 0px;
-    height: 90%;
+    height: 100%;
     width: 25%;
     background-color: rgb(7, 121, 95);
 }
 .box-footer{
-    display: flex;
     margin: 5px 0px;
     height: 80%;
     width: 100%;
